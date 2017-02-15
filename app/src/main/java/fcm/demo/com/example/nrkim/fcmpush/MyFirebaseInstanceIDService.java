@@ -34,7 +34,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService{
 
         //request
         Request request = new Request.Builder()
-                .url("http://http://fcm-push-example-236b6.firebasea/fcm/register.php")
+                .url("http://fcm-push-example-236b6.firebasea/fcm/register.php")
                 .post(body)
                 .build();
 
